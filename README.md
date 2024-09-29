@@ -1,16 +1,34 @@
-# weather_app
+# Weather App Flutter
 
-A new Flutter project.
+Um aplicativo simples de previsão do tempo feito com Flutter, que utiliza a API OpenWeatherMap para fornecer informações climáticas em tempo real.
 
-## Getting Started
+## Funcionalidades
 
-This project is a starting point for a Flutter application.
+- Busca de clima por cidade.
+- Exibe temperatura, umidade e descrição do clima.
+- Interface amigável e responsiva.
 
-A few resources to get you started if this is your first Flutter project:
+## Tecnologias Usadas
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Flutter](https://flutter.dev) - Framework para desenvolvimento de aplicações móveis.
+- [Dart](https://dart.dev) - Linguagem de programação usada para desenvolver o aplicativo.
+- [OpenWeatherMap API](https://openweathermap.org/api) - API para dados meteorológicos.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Instalação
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seuusuario/weather-app-flutter.git
+   ```
+   ---
+2. Navegue aé o diretório do projeto
+   ```cd``` weather-app-flutter
+
+   ---
+4. Instale as dependências
+   '''Bash
+   flutter pub get
+
+  ---
+5. Execute o aplicativo:
+   flutter run
